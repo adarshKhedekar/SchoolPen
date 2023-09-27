@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@200&display=swap');
+.sidebar{
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    background-color: #ffffff;
+}
+.sidebar .total-users{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top, #2D00BA, #8C6FE9);
+    border-radius: 10px;
+    color: #ffffff;
+}
+.sidebar .total-users .text{
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: bolder;
+}
+.sidebar .total-users .number{
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: bolder;
+}
+.sidebar .create-user-container{
+    display: flex;
+    flex-direction: column;
+}
+.sidebar .create-user-container .create-user{
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    font-weight: 900;
+    align-items: center;
+}
+.sidebar .create-user-container .create-user .create{
+    color: #7A58E6;
+    font-size: 30px; 
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+.sidebar .create-user-container .dropdown{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sidebar .create-user-container .dropdown span{
+    color: grey;
+    font-weight: bolder;
+}
+.sidebar .create-user-container .dropdown input{
+    border: none;
+    background-color: #F0F0F0;
+    font-family: 'Poppins';
+    color: grey;
+    font-weight: bolder;
+    padding:10px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+
+.sidebar .users{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.sidebar .users .user{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    padding-left: 7px;
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    color: grey;
+}
+.sidebar .users .user img{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+.sidebar .btn{
+    background-color: #7A58E6;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    height: 40px;
+}
